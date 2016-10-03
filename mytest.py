@@ -20,7 +20,6 @@ GeneratorMatrix2(C1)
 
 """
 We should probably handle empty matrix and wrong matrix (right?)
-We should also handle matrices that are not created properly: for example, a binary matrix that is not created as a binary matrix.
-We can do this by remaking it.
+Should we also indicate the ones that cannot be converted?
 Any other idea?
 """
