@@ -6,6 +6,13 @@ print (ParityCheckMatrix2(A) == ParityCheckMatrix1(A), ParityCheckMatrix2(A))
 C2 = matrix(GF(2),[[0,0,0],[0,1,1],[1,0,1],[1,1,0]])
 GeneratorMatrix1(C2)
 
-# However this returns a slightly different answer than the given one
-# Might be that my code is wrong
+# This returns the answer in a different order than the previous command
 GeneratorMatrix2(C2)
+
+# Another example from book
+# My code returns a G.M. in standard form for this one
+C1 = matrix(GF(2),[[1,1,1,1,1,1,1,],[1,0,0,0,1,0,1],[1,1,0,0,0,1,0],[0,1,1,0,0,0,1]])
+GeneratorMatrix1(C1)
+
+# This one is returned as-is
+GeneratorMatrix2(C1)
