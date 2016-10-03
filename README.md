@@ -1,4 +1,5 @@
-# Cryptography-and-Error-Correcting-Codes-Testing     
+# Cryptography-and-Error-Correcting-Codes-Testing    
+# Tests for PP2:
 - `GeneratorMatrix1?`  
 - `GeneratorMatrix2?`  
 - `ParityCheckMatrix1?`
